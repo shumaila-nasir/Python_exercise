@@ -25,13 +25,5 @@
 # #     if isinstance(i, int):
 # #         print(i)
 
-def reverse_word(s):
-    
-    split_word = s.split()
-    
-    split_word.reverse()
-    print("This is a string value :", ' '.join(split_word))
-
-
 sentence = input("Enter the string : ")
-reverse_word(sentence)
+print("This is string value  :" + sentence)
